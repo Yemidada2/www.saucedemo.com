@@ -1,0 +1,53 @@
+{
+  "id": "942b62af-44fa-44f3-9876-998253910cf1",
+  "version": "2.0",
+  "name": "WWW.SAUCEDEMO.COM",
+  "url": "https://www.saucedemo.com/",
+  "tests": [{
+    "id": "eab5496a-044e-4e76-a470-00be102a745e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "0c5e9e03-4d76-49ac-9bfb-51f2f88dcca0",
+    "name": "Step 1:Navigate to URL link",
+    "commands": [{
+      "id": "82fa1cd8-b41c-4431-be01-5336e55e95c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54635179-3f6e-4dbe-a72c-2c9464be2184",
+      "comment": "",
+      "command": "",
+      "target": "Username field: standard_user",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f67c49f-a370-4ca0-bcb5-90886ed32b59",
+      "comment": "",
+      "command": "",
+      "target": "Password field: secret_sauce",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e5807a-7640-41d8-b82d-82874461375f",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": " Login",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "21d24e88-db83-4661-8939-8643097a1d22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eab5496a-044e-4e76-a470-00be102a745e"]
+  }],
+  "urls": ["https://www.saucedemo.com/"],
+  "plugins": []
+}
